@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* Colors:
+#202020, #24bff2, #fff, #F5FBFE
+Colors Social Media:
+#3b5998, #fcaf45, #55acee, #c4302b */
+
+/*=============================
+     GENERAL STYLES
+=============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+    max-width: 1440px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+h2 {
+    font-family: 'Merriweather';
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*=============================
+               NAV
+=============================*/
+header > nav > a {
+    font-family: 'Lato';
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+header > nav {
+    text-align: right;
+}
+/*=============================
+      FIRST SECTION "BULB"
+=============================*/
+main > section:nth-of-type(1) > div:nth-of-type(1) {
+    max-width: 700px;
+    padding-left: 100px;
+    padding-top: 120px;
+    float: left;
+}
+main > section:nth-of-type(1) h2{
+    padding-top: 20px
+}
+main > section:nth-of-type(1) > div >img {
+    max-width: 500px;
+    float: right;
+}
+main > section:nth-of-type(1) button{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 5px 5px 16px 0 rgba(0,0,0,0.2)
+}
+main > section:nth-of-type(1) button:nth-of-type(1){
+    color: white;
+    background-color: black;
+}
+main > section:nth-of-type(1) button:nth-of-type(2){
+    color: black;
+    background-color: white;
+}
+/*=============================
+      SECOND SECTION "FACE"
+=============================*/
+main section:nth-of-type(2) div:nth-of-type(1) {
+    max-width: 40%;
+}
+main section:nth-of-type(2) div:nth-of-type(1) img{
+    max-width: 500px;
+    padding-left: 100px;
+    float: left;
+}
+main section:nth-of-type(2) div:nth-of-type(2) {
+    max-width: 50%;
+    float: right;
+    padding-top: 120px;
+    padding-right: 100px;
+}
+/*=============================
+      THIRD SECTION "FISH"
+=============================*/
+main > section:nth-of-type(3) > div:nth-of-type(1) {
+    max-width: 700px;
+    padding-left: 100px;
+    padding-top: 120px;
+    float: left;
+}
+main > section:nth-of-type(3) h2{
+    padding-top: 20px
+}
+main > section:nth-of-type(3) > div >img {
+    max-width: 500px;
+    float: right;
+    padding-right: 100px;
+}
+/*=============================
+      FOURTH SECTION "ill. for app."
+=============================*/
+main > section:nth-of-type(4){
+    margin-top: 150px;
+}
+main > section:nth-of-type(4) > div:nth-of-type(1) {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+main > section:nth-of-type(4) > div:nth-of-type(2) {
+    text-align: center;
+}
+main > section:nth-of-type(4) > div:nth-of-type(2) img{
+    width: 400px;
+    margin-top: 80px;
+}
+main > section:nth-of-type(4) > div:nth-of-type(2) img:hover{
+    box-shadow:  5px 5px 16px 0 rgba(0,0,0,0.2);
+}
+/*=============================
+      FIFTH SECTION "ill. for app."
+=============================*/
+main > section:nth-of-type(5){
+    margin-top: 150px;
+}
+main > section:nth-of-type(5) > span {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+main > section:nth-of-type(5) > div:nth-of-type(1){
+    text-align: center;
+    padding: 40px;
+}
+main > section:nth-of-type(5) > div:nth-of-type(2){
+    text-align: center;
+    padding: 40px;
+}
+main > section:nth-of-type(5) > div:nth-of-type(3){
+    text-align: center;
+    padding: 40px;
+}
+main > section:nth-of-type(5) img{
+    width: 600px;
+    margin-left: 70px;
+}
+main > section:nth-of-type(5) img:hover{
+    box-shadow:  5px 5px 16px 0 rgba(0,0,0,0.2);
+}
+/*=============================
+      SIXTH SECTION "download"
+=============================*/
+main > section:nth-of-type(6){
+    margin-top: 150px;
+}
+main > section:nth-of-type(6) > div:nth-of-type(1) {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) {
+    width: 350px;
+    height: 650px;
+    margin: auto;
+    background: rgb(243,251,253);
+    margin-top: 50px;
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(1){
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(3) {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 40px;
+    color: #202020
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) > ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+main > section:nth-of-type(6) > div:nth-of-type(2) li{
+    margin-bottom: 8px;
+}
+main > section:nth-of-type(6) button{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 4px;
+    border-style: hidden;
+    color: white;
+    background-color: #24bff2;
+    width: 250px;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+/*=============================
+            FOOTER
+=============================*/
+footer h1{
+    margin-top: 200px;
+}
+footer{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    margin-top: 40px;
+}
+footer li{
+    padding-top: 25px;
+}
+footer li:nth-of-type(odd){
+    color:#747474;
+}
+footer li:last-of-type span{
+    color:#202020;
+}
+footer li:last-of-type span:nth-of-type(1)::before{
+    content: ".";
+    color:#3b5998;
+    font-size:35px;
+}
+footer li:last-of-type span:nth-of-type(2)::before{
+    content: ".";
+    color:#fcaf45;
+    font-size:35px;
+}
+footer li:last-of-type span:nth-of-type(3)::before{
+    content: ".";
+    color:#55acee;
+    font-size:35px;
+}
+footer li:last-of-type span:nth-of-type(4)::before{
+    content: ".";
+    color:#c4302b;
+    font-size:35px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
